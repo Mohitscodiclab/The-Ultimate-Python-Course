@@ -1,0 +1,17 @@
+{
+    "apc.electron": {
+
+        "opacity": 0.95,
+    "transparent": true,
+    "backgroundColor": "#00000000",
+    "vibrancy": "ultra-dark"
+        
+    },
+    "apc.buttons": [],
+    "animations.Install-Method": "Apc Customize UI++",
+    "apc.theme": [
+        
+
+    ],
+    "apc.font.family": "\"apc.parts.font.family\": {     \"sidebar\": \"Roboto Mono\",     \"titlebar\": \"Roboto Mono\",     \"activityBar\": \"Roboto Mono\",     \"panel\": \"Roboto Mono\",     \"tabs\": \"Roboto Mono\",     \"statusbar\": \"Roboto Mono\",     \"settings-body\": \"Roboto Mono\",     \"extension-editor\": \"Roboto Mono\", // Install the font and restart vscode     \"monaco-menu\": \"Roboto Mono\"   },"
+}

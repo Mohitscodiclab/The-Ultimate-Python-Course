@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-docx
+jinja2
+pdfkit
+pillow
+imgkit

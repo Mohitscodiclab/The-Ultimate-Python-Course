@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CV Generator</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Create Your CV</h1>
+    <form id="cvForm">
+      <label>Full Name: <input name="fullName" required></label>
+      <label>Email: <input name="email" required></label>
+      <label>Phone: <input name="phone" required></label>
+      <label>GitHub: <input name="github"></label>
+      <label>Portfolio: <input name="portfolio"></label>
+
+      <label>Career Objective:
+        <select name="objective">
+          <option value="A passionate developer aiming to contribute to real-world software that solves practical problems using modern tech stacks.">
+            Developer aiming to solve real-world problems
+          </option>
+          <option value="To build user-friendly applications with a strong emphasis on performance, design, and scalability.">
+            User-friendly applications with scalability
+          </option>
+        </select>
+      </label>
+
+      <label>Education:
+        <select name="education">
+          <option value="Diploma in Computer Science, West Bengal Polytechnic, 2026">Computer Science, 2026</option>
+          <option value="Diploma in IT, ABC Polytechnic, 2025">IT, 2025</option>
+        </select>
+      </label>
+
+      <label>Technical Skills:
+        <textarea name="skills">- Python, JavaScript, HTML, CSS\n- React.js, FastAPI, GitHub</textarea>
+      </label>
+
+      <label>Projects:
+        <textarea name="projects">- Tally ERP 9 Clone\n- No-code Website Builder</textarea>
+      </label>
+
+      <label>Strengths:
+        <textarea name="strengths">- Quick Learner\n- Design-oriented\n- Creative Thinker</textarea>
+      </label>
+
+      <label>Personal Details:
+        <textarea name="details">DOB: May 31, 2006\nLocation: West Bengal\nLanguages: Hindi, English</textarea>
+      </label>
+
+      <label>Download As:
+        <select name="format">
+          <option value="docx">DOCX</option>
+          <option value="pdf">PDF</option>
+          <option value="png">Image</option>
+        </select>
+      </label>
+
+      <button type="submit">Generate CV</button>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("cvForm").addEventListener("submit", async function(e) {
+      e.preventDefault();
+      const form = new FormData(this);
+      const response = await fetch('/generate', {
+        method: 'POST',
+        body: form
+      });
+      const blob = await response.blob();
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = `Generated_CV.${form.get('format')}`;
+      link.click();
+    });
+  </script>
+</body>
+</html>

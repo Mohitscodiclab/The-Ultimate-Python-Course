@@ -1,8 +1,3 @@
-Here's a clean and professional `README.md` file for your GitHub project that explains everything step-by-step for users:
-
----
-
-```markdown
 # 💬 Chat with Google Gemini using Python
 
 This simple Python project allows you to chat with **Google's Gemini 1.5 Pro model** using the `google-generativeai` library. With just a few lines of code, you'll be able to create an interactive AI chatbot in your terminal!

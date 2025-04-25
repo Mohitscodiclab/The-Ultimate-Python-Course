@@ -1,8 +1,3 @@
-Here's a clean and professional `README.md` file for your GitHub project that explains everything step-by-step for users:
-
----
-
-```markdown
 # 💬 Chat with Google Gemini using Python
 
 This simple Python project allows you to chat with **Google's Gemini 1.5 Pro model** using the `google-generativeai` library. With just a few lines of code, you'll be able to create an interactive AI chatbot in your terminal!
@@ -20,8 +15,7 @@ This simple Python project allows you to chat with **Google's Gemini 1.5 Pro mod
 You can either:
 - Clone this repo:  
   ```bash
-  git clone https://github.com/yourusername/your-repo-name.git
-  cd your-repo-name
+  git clone (https://github.com/Mohitscodiclab/The-Ultimate-Python-Course-main/tree/main/eXPERIMENTS/Gemini%20AI)
   ```
 
 - Or simply copy and paste the code below into your own `.py` file.
@@ -87,7 +81,3 @@ This project is licensed under the MIT License. Feel free to use and modify!
 ## ✨ Credits
 Created with ❤️ using Python and Google's Generative AI SDK.
 ```
-
----
-
-Would you like me to generate a `README.md` file for direct download or help you upload it to your GitHub repo?

@@ -1,6 +1,3 @@
-
-
-
 import os
 import ctypes
 import time
@@ -51,8 +48,6 @@ else:
         "Security Check",
         0x40
     )
-
-
 
 
 

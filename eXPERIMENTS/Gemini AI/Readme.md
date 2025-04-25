@@ -82,7 +82,3 @@ This project is licensed under the MIT License. Feel free to use and modify!
 ## ✨ Credits
 Created with ❤️ using Python and Google's Generative AI SDK.
 ```
-
----
-
-Would you like me to generate a `README.md` file for direct download or help you upload it to your GitHub repo?

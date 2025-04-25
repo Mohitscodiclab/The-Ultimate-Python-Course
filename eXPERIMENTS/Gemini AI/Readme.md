@@ -15,7 +15,7 @@ This simple Python project allows you to chat with **Google's Gemini 1.5 Pro mod
 You can either:
 - Clone this repo:  
   ```bash
-  git clone https://github.com/yourusername/your-repo-name.git
+  git clone https://github.com/mohitscodiclab/your-repo-name.git
   cd your-repo-name
   ```
 

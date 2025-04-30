@@ -80,4 +80,3 @@ This project is licensed under the MIT License. Feel free to use and modify!
 
 ## ✨ Credits
 Created with ❤️ using Python and Google's Generative AI SDK.
-```

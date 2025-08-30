@@ -115,7 +115,7 @@ This Python script provides a comprehensive solution for data sterilization acro
 
 ### Installation:
 ```bash
-git clone https://github.com/yourusername/data-sterilization.git
+git clone https://github.com/Mohitscodiclab/The-Ultimate-Python-Course-main/tree/main/eXPERIMENTS/Forensic
 cd data-sterilization
 pip install -r requirements.txt
 ```
